@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Employees</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+    }
+    th {
+      background: #f8f8f8;
+    }
+    tr:hover {
+      background: #f3f8ff;
+    }
+    .checkbox {
+      text-align: center;
+    }
+    .icon {
+      margin-right: 6px;
+    }
+    .file-pdf {
+      color: red;
+    }
+    .file-doc {
+      color: orange;
+    }
+    .file-xls {
+      color: teal;
+    }
+    .file-img {
+      color: darkred;
+    }
+    .actions {
+      text-align: center;
+    }
+    .action-btn {
+      cursor: pointer;
+      margin: 0 4px;
+    }
+  </style>
+</head>
+<body>
+  <h2>All employees</h2>
+  <table>
+    <thead>
+      <tr>
+        <th class="checkbox"><input type="checkbox" checked></th>
+        <th>Filename</th>
+        <th>Shared to</th>
+        <th>Folder</th>
+        <th>Modified</th>
+        <th class="actions">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-img">&#128196;</span> File image</td>
+        <td>John Smith</td>
+        <td>Policy</td>
+        <td>18/04/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-pdf">&#128196;</span> Documentation file</td>
+        <td>Jessica Rodríguez</td>
+        <td>Complaints</td>
+        <td>18/04/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-doc">&#128196;</span> Implementation plan</td>
+        <td>Claire Williams</td>
+        <td>Statutory</td>
+        <td>04/14/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-xls">&#128196;</span> Charts - Sales March 23</td>
+        <td>Steve Conrad</td>
+        <td>Statutory</td>
+        <td>18/04/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-xls">&#128196;</span> Company Handbook</td>
+        <td>Stella Davis</td>
+        <td>Complaints</td>
+        <td>04/14/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-doc">&#128196;</span> Documentation file</td>
+        <td>Chris Lewis</td>
+        <td>Policy</td>
+        <td>5/02/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-pdf">&#128196;</span> Documentation file</td>
+        <td>Frederik Adams</td>
+        <td>Policy</td>
+        <td>18/04/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-xls">&#128196;</span> Charts - Sales January 23</td>
+        <td>Claudet Jones</td>
+        <td>Statutory</td>
+        <td>04/14/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-doc">&#128196;</span> Implementation plan</td>
+        <td>Steve Conrad</td>
+        <td>Policy</td>
+        <td>18/04/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-pdf">&#128196;</span> Complaint file</td>
+        <td>Claire Williams</td>
+        <td>Complaints</td>
+        <td>04/14/2023</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+      <tr>
+        <td class="checkbox"><input type="checkbox" checked></td>
+        <td><span class="icon file-xls">&#128196;</span> Company Handbook template</td>
+        <td>Claire Williams</td>
+        <td>Templates</td>
+        <td>18/04/2021</td>
+        <td class="actions"><span class="action-btn">&#128172;</span><span class="action-btn">&#8681;</span></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
